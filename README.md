@@ -1,4 +1,4 @@
-# 📧 MERN Email Backup for Microsoft Graph
+# 📧 Personal Email Backup Tool (using Microsoft Graph API + MERN stack)
 
 A full-stack MERN application designed to fetch and back up your Microsoft 365 emails that have attachments. It provides a simple web interface to connect to your account, list relevant emails, and save them to a MongoDB database.
 
@@ -32,7 +32,7 @@ Make sure you have the following installed on your system:
 
     Clone this project to your local machine.
     ```bash
-    git clone [https://github.com/bhattaraiprayag/mern-email-backup](https://github.com/bhattaraiprayag/mern-email-backup)
+    git clone https://github.com/bhattaraiprayag/mern-email-backup
     cd mern-email-backup
     ```
 
