@@ -1,0 +1,8 @@
+# Ignore all node_modules directories in any subdirectory
+**/node_modules/
+
+# Ignore mongodb folder
+mongodb/
+
+# Ignore the pnpm-lock.yaml file
+**/pnpm-lock.yaml
