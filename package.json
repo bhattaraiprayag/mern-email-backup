@@ -1,0 +1,19 @@
+{
+  "name": "mern-email-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "pnpm --filter server start",
+    "client": "pnpm --filter client dev",
+    "dev": "concurrently \"pnpm run server\" \"pnpm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
